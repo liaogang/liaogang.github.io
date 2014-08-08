@@ -2,7 +2,7 @@
 layout: post
 title:  "New in cplusplus"
 date:   2014-08-07  
-categories: st
+categories: tech
 ---
 
 #关于 C++ 里的 New

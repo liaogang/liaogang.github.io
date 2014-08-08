@@ -2,7 +2,7 @@
 layout: post
 title:  "Test cplusplus code"
 date:   2014-08-07 
-categories: st
+categories: tech
 ---
 
 
