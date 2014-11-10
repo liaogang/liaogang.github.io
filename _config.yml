@@ -1,6 +1,6 @@
 # Site settings
 title: liaogang's papes
-email: ynwlgh@hotmail.com
+email: ynwlgh@icloud.com
 description: "This it the pages of liaogang ,the new address sited in github. You can find if there is something insteresting here in my github project. Or read stuffs i writen before." 
 baseurl: ""
 url: "http://liaogang.github.io"
@@ -10,3 +10,4 @@ github_username:  liaogang
 # Build settings
 markdown: kramdown
 permalink: pretty
+
