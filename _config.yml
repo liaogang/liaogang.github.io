@@ -11,3 +11,5 @@ github_username:  liaogang
 markdown: kramdown
 permalink: pretty
 
+#　禁用自定义插件
+safe: true
