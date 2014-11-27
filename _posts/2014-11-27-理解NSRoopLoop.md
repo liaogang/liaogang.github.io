@@ -3,9 +3,7 @@ layout: post
 title:  理解RoopLoop  
 date:   2014-11-27  
 categories: tech  
----
-　
-　
+---  
 `Run Loop`是一个抽象的概念，它提供了一种机制来处理系统的输入源（sockets,端口，文件，键盘，鼠标，定时器，等等）.如同windows消息机制里面的消息源一样。  
 每一个`NSThread`都有它自己的`Run Loop`,可以通过`currentRunLoop`方法来访问。  　
 通常你无需直接访问`Run Loop`，虽然有一些（网络）组件，可以允许您指定用来I/O处理的`Run Loop`。  
