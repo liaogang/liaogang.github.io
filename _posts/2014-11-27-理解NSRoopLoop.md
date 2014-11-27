@@ -14,7 +14,7 @@ categories: tech
 Run Loop其实非常像它字面上的意思。就是一个循环你的线程进入然后处理各种消息。  
 Run loop接收来源于两种源的事件:*Input sources*和*Timer sources*。Input sources派发异步的事件，可能来自另一个线程或应用程序。Timer sources派发同步消息， occurring at a scheduled time or repeating interval.
 
-![](/Users/liaogang/liaogang/resource/img/理解RoopLoop/理解RoopLoop.png)
+![](/resource/img/理解RoopLoop/理解RoopLoop.png)
 
 ##Run Loop 模式
 Table 3-1  Predefined run loop modes　　
