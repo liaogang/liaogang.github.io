@@ -37,4 +37,7 @@ Objective-c开发者经常使用self.view.frame或self.view.bounds来创建一�
 所以结论是，你应该理解自己所做的事。View hierarchies占了构建app的一大部分内容。确保你完全理解视图及其坐标系统。　　
 
 ***
-[You Probably Don't Understand frames and bounds](http://ashfurrow.com/blog/you-probably-dont-understand-frames-and-bounds)
+[You Probably Don't Understand frames and bounds](http://ashfurrow.com/blog/you-probably-dont-understand-frames-and-bounds)  
+
+	hotNewSubview.frame = self.view.bounds; //Better, but still not perfect　我觉得这个也可以。如果获取坐标值时间与addsubview的时间间隔里，这个view的位置没有变动的话。　　
+	
