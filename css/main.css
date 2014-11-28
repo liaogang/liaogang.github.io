@@ -46,9 +46,9 @@ aa:visited { color: #205caa; }
 /* Site header */
 
 .site-header {
-  border-top: 5px solid #333;
-  border-bottom: 1px solid #e8e8e8;
-  min-height: 56px;
+  border-top: 0px solid #333;
+  border-bottom: 0px solid #e8e8e8;
+  min-height: 0px;
   background-color: white;
 }
 
@@ -82,8 +82,8 @@ aa:visited { color: #205caa; }
 /* Site footer */
 
 .site-footer {
-  border-top: 1px solid #e8e8e8;
-  padding: 30px 0;
+  border-top: 0px solid #e8e8e8;
+  padding: 0px 0;
 }
 
 .footer-heading {
