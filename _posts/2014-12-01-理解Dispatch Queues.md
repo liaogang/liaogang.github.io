@@ -12,9 +12,9 @@ Grand Central Dispatch (GCD) dispatch queues 是一个处理任务的强大的�
 
 A dispatch queue is an object-like structure that manages the tasks you submit to it. All dispatch queues are first-in, first-out data structures.所以任务总是按你添加的顺序先后执行。GCD提供一些dispatch queues,但你也可以自己创建，来完成特殊的任务。  
 
-|类型 |描述|
-|:---|:--|
-|Serial,串行|Serial 又称private dispatch queues，每个时刻只执行一个任务。Serial queue通常用于同步访问特定的资源。当你创建多个Serial queue时，虽然它们各自是同步执行的，但Serial queue与Serial queue之间是并发执行的。|
+|类型        |描述                                          |
+|:----------|:---------------------------------------------|
+|Serial,串行                |Serial 又称private dispatch queues，每个时刻只执行一个任务。Serial queue通常用于同步访问特定的资源。当你创建多个Serial queue时，虽然它们各自是同步执行的，但Serial queue与Serial queue之间是并发执行的。|
 |Concurrent,并行| Concurrent 又称global dispatch queue，可以并发地执行多个任务。你只能使用系统提供的4种global dispatch queue，不能自己创建。（iOS 5.0之前是3种）。|
 |Main dispatch| Main dispatch queue 它是全局可用的serial queue，它是在应用程序主线程上执行任务的。|
 
