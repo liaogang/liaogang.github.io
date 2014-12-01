@@ -13,8 +13,11 @@ categories: tech
 在Objective-C里，消息是在运行的时候才绑定到具体实现的。  
 
 当你写出一句发送消息的Objective-C代码:  
+
 `[receiver message]`  
+
 编译器就会生成一个objc_msgSend的函数调用:  
+
 `objc_msgSend(receiver,selector);`  
 `objc_msgSend(receiver, selector, arg1, arg2, ...)`  
 
