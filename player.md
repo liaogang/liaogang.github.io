@@ -35,9 +35,6 @@ permalink: /player/
 
 ---
   
-  
-  
 
-
-![](resource/img/player/player.png)
+![](https://raw.githubusercontent.com/liaogang/liaogang.github.io/master/resource/img/player/player.png)
 
