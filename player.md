@@ -12,6 +12,8 @@ permalink: /player/
 [download the lastest releases](https://github.com/liaogang/player/releases) 
 
 
+
+
 >
 **Main features**
 >>  
@@ -34,6 +36,10 @@ permalink: /player/
 >>> - 支持从千千静听歌词库下载歌词  
 >>> - 搜索并加载指定目录下的相应歌词  
 
+---
+  
+  
+  
 
  
 ![](https://raw.githubusercontent.com/liaogang/player/master/img/player.bmp)
