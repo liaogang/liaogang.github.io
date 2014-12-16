@@ -1,5 +1,5 @@
 ---
-layout: homePage  
+layout: post    
 title:  ARC Retain Cycles in Blocks  
 date:   2014-12-09-11:00  
 categories: tech  
