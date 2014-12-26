@@ -8,5 +8,4 @@ lyricsFetcher 是一个命令行工具, 用于从网络上批量下载歌曲的�
 
 [工程地址](https://github.com/liaogang/lyricsFetcher)  
 
-![](https://github.com/liaogang/lyricsFetcher/blob/master/images/c.png)  
-
+<p><img src="https://raw.githubusercontent.com/liaogang/lyricsFetcher/master/images/c.png" alt="" style="width: 907px;height: 600px;"/></p>
