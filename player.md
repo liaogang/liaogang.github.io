@@ -15,16 +15,6 @@ permalink: /player/
 
 ---
 
-
-
-
-**Main features**
-
-* Supported audio formats: MP3 and  wave.
-* (More format will be open support in the near futhure)
-* Easily customizable user interface layout.   
-
-
 **主要特性**
 
 * 支持 MP3 及  wave 音频 格式 . (更多格式会在不久的将来被支持)
@@ -33,6 +23,15 @@ permalink: /player/
 * 播放列队及搜索歌曲列表
 * 封面显示
 * 歌词:  1. 支持从千千静听歌词库下载歌词 2. 搜索并加载指定目录下的相应歌词
+
+
+##未来的计划  
+
+* 对于Last.fm的支持 ，项目已启动 https://github.com/liaogang/Last.fm  
+* 快捷键的定制，已快完成  
+* 歌词搜索放到后台完成，将不再会卡住界面的响应了(在不久的将来完成)  
+* mac版的制作，在遥远的未来（时间远远不够啊）  
+
 
 ---
   
