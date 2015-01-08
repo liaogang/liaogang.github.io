@@ -5,7 +5,7 @@ date:   2014-12-30-02:54
 categories: tech
 ---
 
-from [cppreference.com](en.cppreference.com)  
+from [cppreference.com](http://en.cppreference.com/w/)  
 
 [C++11 range-based for loops](http://www.cprogramming.com/c++11/c++11-ranged-for-loop.html)  
 

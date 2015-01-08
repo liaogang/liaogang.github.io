@@ -1,7 +1,7 @@
 ---
 layout: post 
-title: lyrics fetcher
-permalink: /lyrics fetcher/
+title: lyricsFetcher
+permalink: /lyricsFetcher/
 ---
 
 lyricsFetcher 是一个命令行工具, 用于从网络上批量下载歌曲的歌词。  
