@@ -11,7 +11,7 @@ categories: tech
     
 
 |#|语法|  
-|:--:|:--|  
+|:--|:--|  
 |1|[ capture-list ] ( params ) mutable(optional) exception attribute -> ret { body }|
 |2|[ capture-list ] ( params ) -> ret { body } |
 |3| capture-list ] ( params ) { body } |
