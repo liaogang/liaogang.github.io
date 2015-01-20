@@ -10,8 +10,9 @@ permalink: /player/
 [the project on github](https://github.com/liaogang/player)  
 
 
-[download the lastest releases](https://github.com/liaogang/player/releases/latest)
+[download the lastest releases](https://github.com/liaogang/player/releases/latest)  
 
+<a href="http://www.orsoon.com" target="_blank">未来软件园</a>
 
 ---
 
