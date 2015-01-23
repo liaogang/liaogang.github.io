@@ -12,8 +12,6 @@ permalink: /player/
 
 [download the lastest releases](https://github.com/liaogang/player/releases/latest)  
 
-<a href="http://www.orsoon.com" target="_blank">未来软件园</a>
-
 ---
 
 ##主要功能
