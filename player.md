@@ -6,6 +6,7 @@ permalink: /player/
 
 # This is a player looks like foobar2000 in windows.
 
+uPlayer 是Windows平台下的一款简约小巧的音乐播放器软件。
 
 [the project on github](https://github.com/liaogang/player)  
 
