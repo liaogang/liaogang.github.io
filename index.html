@@ -1,11 +1,14 @@
 ---
-layout: homePage  
+layout: layout_homePage  
+post_width: 500 
 ---
 <div >
+  <hr></hr>
   <ul >
     {% for post in site.posts %}
       <li> <span >{{ post.date | date: "%Y-%m-%d" }}</span> <a  href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> </li>
     {% endfor %}
   </ul>
-  <p >subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <hr></hr>
+  <p >subscribe via <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></p>
 </div>

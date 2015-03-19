@@ -1,5 +1,5 @@
 ---
-layout: post_c
+layout: post_center
 title:  My Mac Style
 date:   2015-03-06-13:34  
 categories: mac

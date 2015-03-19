@@ -9,3 +9,14 @@ permalink: pretty
 
 #　禁用自定义插件
 safe: true
+
+# default values
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "post_center"
+      post_width: "702"
+
+

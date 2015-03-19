@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_center
 title:  Knocking On Heaven’s Door
 date:   2014-09-04  
 categories: music
