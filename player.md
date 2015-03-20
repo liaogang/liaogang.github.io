@@ -1,6 +1,7 @@
 ---
-layout: post 
-title: Player
+layout: post_center 
+title: Player  
+tag: private  
 permalink: /player/
 ---
 

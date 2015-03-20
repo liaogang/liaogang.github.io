@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  learning lisp  
+title:  Learning lisp  
 date:   2015-03-18
 categories: learning
 ---
