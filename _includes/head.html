@@ -1,14 +1,6 @@
 <head>
     <meta charset="utf-8">
-     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-
-     {% if include.param == null%}
-
-    {% else if include.param == 'center' %}
-     		<style>div{width: {{page.post_width}}px;margin: 0px auto;position: relative;}</style>
-    {% else if include.param == 'center_text' %}
-    	<style>body{ text-align:center}.div{ margin:0 auto; }</style> 
-    {% endif %}
-
-
+     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title> {% if include.param == null%} {% else if include.param == 'center' %}
+     <style>div{width: {{page.post_width}}px;margin: 0px auto;position: relative;}</style> {% else if include.param == 'center_text' %}
+    	<style>body{ text-align:center}.div{ margin:0 auto; }</style>{% endif %}
 </head>

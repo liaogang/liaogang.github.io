@@ -1,5 +1,5 @@
 ---
-layout: post 
+layout: post_center  
 title: About Me
 permalink: /about me/
 ---
