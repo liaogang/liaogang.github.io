@@ -45,3 +45,6 @@ categories: learning
 
 (variable initial update)
 
+## Common Lisp 习题  
+
+1. 只使用本章所介绍的操作符，定义一个函数，它接受一个列表作为实参，如果有一个元素是列表时，就返回真。  

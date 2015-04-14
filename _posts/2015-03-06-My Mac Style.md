@@ -7,7 +7,7 @@ categories: mac
 
 Apple's Mac is beautiful.  
 
-| # | ? |  
+| classify | target |  
 |:--|--:|  
 |聊天工具|QQ|  
 |输入法|清歌输入法|
@@ -20,8 +20,6 @@ Apple's Mac is beautiful.
 |文本编辑|Sublime Text or Vim |
 
 
-
-  
 
   
 

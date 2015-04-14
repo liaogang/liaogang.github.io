@@ -5,8 +5,8 @@ post_width: 500
 <div >
   <hr></hr>
   <ul >
-    {% for post in site.posts %}
-      <li> <span >{{ post.date | date: "%Y-%m-%d" }}</span> <a  href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> </li><hr></hr>
+    {% for post in site.posts %}{% if post.tag != 'private'%}
+      <li> <span >{{ post.date | date: "%Y-%m-%d" }}</span> <a  href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> </li>{% endif %}
     {% endfor %}
   </ul>
   <p >subscribe via <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></p>
