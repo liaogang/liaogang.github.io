@@ -5,7 +5,7 @@ date:   2015-03-06-13:34
 categories: mac
 ---
 
-Apple's Mac is beautiful.  
+Apple's Mac Os X is beautiful.  
 
 | classify | target |  
 |:--|--:|  
