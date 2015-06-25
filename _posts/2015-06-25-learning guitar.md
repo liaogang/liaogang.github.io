@@ -7,7 +7,7 @@ categories: guitar
 
 
 To prevent your fret hand from injury, keep your calluses in check.  
-为了防止你弹琴的手(左手)受伤，经常检查你的老茧。
+为了防止你按弦的手受伤，经常检查你的老茧。
 
 Take a buffer board to your fingertips once or twice a week.  
 在指尖上带上（胶带？）每周一或两次。
