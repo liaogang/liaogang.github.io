@@ -45,3 +45,8 @@ http://www.wikihow.com/Rapidly-Learn-to-Play-the-Acoustic-Guitar-Yourself
 不同的人喜欢的吉他弦离指板的距离是不同的，这点充分的体现了个人的演奏风格。我的建议是琴弦靠吉他的品格越近越好，这样可以不费劲的把音弹出来好了。请你注意，12品上琴弦与品格的距离，理想值是在6弦两者相差2MM/ 第1弦两者相差1.5MM，当然一般来讲你很难买到这么理想的琴，那么就只有以不打品为原则调整它们的距离了
 
 
+--- 
+
+Knocking on Heaven‘s door 吉他 教学 01 licklibrary
+
+http://v.youku.com/v_show/id_XNjMyNTMxNDQ4.html?from=s1.8-1-1.2
