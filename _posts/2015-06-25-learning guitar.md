@@ -22,7 +22,9 @@ It's imperative at that time to buff the callous smooth, or you risk getting a s
 那时抛光处理老茧是必不可少的，否则你换弦时老茧的开槽处可能把琴弦粘起。  
 
 
-
+## 相关网站
+国外民谣吉它专业测评  
+http://www.guitar-bass.net/tag/acoustic-guitars/page/  
 
 
 #Refrence  
