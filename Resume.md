@@ -18,7 +18,6 @@ permalink: /resume/
 * 廖罡/男/1989
 * 本科/衡阳南华大学
 * 工作年限: 4年
-* 技术博客: [liaogang.github.io](http://liaogang.github.io)  
 * Github: [github.com/liaogang](https://github.com/liaogang)
 * 期望职位: IOS高级程序员,应用架构师，C/C++高级程序员
 * 期望薪资: 税前月薪 8k~12k,特别喜欢的公司可例外
