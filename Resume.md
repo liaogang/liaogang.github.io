@@ -20,7 +20,7 @@ permalink: /resume/
 * 工作年限: 4年
 * Github: [github.com/liaogang](https://github.com/liaogang)
 * 期望职位: IOS高级程序员,应用架构师，C/C++高级程序员
-* 期望薪资: 税前月薪 8k~12k,特别喜欢的公司可例外
+* 期望薪资: 税前月薪 7k~9k,特别喜欢的公司可例外
 * 期望城市: 长沙
 
 ##工作经历  
