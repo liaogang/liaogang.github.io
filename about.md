@@ -12,5 +12,5 @@ Something I write:
 * [Smine](https://uplayer.github.io/)  : a minimal, beautifully designed music player for OS X .
 * [lyricsFetcher](../lyricsFetcher)  
 
-And [My Resume](../resume)  
+And [My Resume](/resume.html)  
 
