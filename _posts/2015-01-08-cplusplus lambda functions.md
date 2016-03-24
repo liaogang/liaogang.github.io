@@ -3,12 +3,14 @@ layout: post
 title:  cplusplus lambda functions
 date:   2015-01-08-16:49  
 categories: tech
----
+---  
+
 
 所谓lambda，在c++中就是一个闭包函数:能够捕获域内变量的未命令的函数对象。
 
 ##语法  
-    
+
+
 
 |#|语法|  
 |:--|:--|  
