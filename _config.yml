@@ -1,5 +1,5 @@
 # Site settings
-title: liaogang's pages 
+title: 穿过竹林去采茶 
 baseurl: ""
 url: "http://liaogang.github.io"
 
@@ -15,8 +15,7 @@ defaults:
   -
     scope:
       path: "" # an empty string here means all files in the project
-    values:
+    values: 
       layout: "post_center"
       post_width: "702"
-
 

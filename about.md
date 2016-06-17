@@ -1,6 +1,6 @@
 ---
 layout: post_center  
-title: About Me
+title:  Me
 permalink: /about me/
 ---
 
