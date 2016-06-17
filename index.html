@@ -3,7 +3,6 @@ layout: layout_homePage
 post_width: 500 
 ---
 <div >
-  <hr></hr>
   <ul >
     {% for post in site.posts %}{% if post.tag != 'private' and post.tag != 'wallpaper' and post.tag != 'tweet' %}
       <li> <span >{{ post.date | date: "%Y-%m-%d" }}</span> <a  href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> </li>{% endif %}
