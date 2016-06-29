@@ -27,16 +27,9 @@ It's imperative at that time to buff the callous smooth, or you risk getting a s
 http://www.guitar-bass.net/tag/acoustic-guitars/page/  
 
 
-#Refrence  
+## Refrence  
 
 http://www.wikihow.com/Rapidly-Learn-to-Play-the-Acoustic-Guitar-Yourself
-
-
-
-
-
-
-
 
 
 琴弦与第一音品的间距，一般为1.0/1.2mm，与第十二音品的间距，为4.5/5/0mm。高于这个数据，不仅造成按弦的困难，而且会导致“走音”，这类吉他可以请有经验的吉他老师，把弦距调整后再使用

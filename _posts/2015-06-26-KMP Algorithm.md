@@ -32,7 +32,7 @@ Pattern searching is an important problem in computer science. When we do search
 
 We have discussed Naive pattern searching algorithm in the previous post. The worst case complexity of Naive algorithm is O(m(n-m+1)). Time complexity of KMP algorithm is O(n) in worst case.
 
-##KMP (Knuth Morris Pratt) Pattern Searching  
+## KMP (Knuth Morris Pratt) Pattern Searching  
 
 The Naive pattern searching algorithm doesn’t work well in cases where we see many matching characters followed by a mismatching character. Following are some examples.
 
@@ -60,7 +60,7 @@ For the pattern “AAAAA”, lps[] is [0, 1, 2, 3, 4]
 For the pattern “AAABAAA”, lps[] is [0, 1, 2, 0, 1, 2, 3]  
 For the pattern “AAACAAAAAC”, lps[] is [0, 1, 2, 0, 1, 2, 3, 3, 3, 4]  
 
-##Searching Algorithm
+## Searching Algorithm
 
 Unlike the Naive algo where we slide the pattern by one, we use a value from lps[] to decide the next sliding position.   
 
@@ -72,7 +72,7 @@ See KMPSearch() in the below code for details.
 
 
 
-##Preprocessing Algorithm
+## Preprocessing Algorithm
 In the preprocessing part, we calculate values in lps[].  
 
 To do that, we keep track of the length of the longest prefix suffix value (we use len variable for this purpose) for the previous index.  
@@ -177,5 +177,5 @@ See computeLPSArray () in the below code for details.
 	   return 0;
 	}
 
-##Refrence  
+## Refrence  
 http://www.geeksforgeeks.org/searching-for-patterns-set-2-kmp-algorithm

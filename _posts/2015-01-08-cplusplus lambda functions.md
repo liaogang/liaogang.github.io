@@ -8,9 +8,7 @@ categories: tech
 
 所谓lambda，在c++中就是一个闭包函数:能够捕获域内变量的未命令的函数对象。
 
-##语法  
-
-
+## 语法  
 
 |#|语法|  
 |:--|:--|  
@@ -33,6 +31,6 @@ c++14或之后:
 4.	Omitted parameter list: function takes no arguments, as if the parameter list was () .
 
 
-##Refrence  
+## Refrence  
 
 refrence from [cppreference](http://en.cppreference.com/w/cpp/language/lambda)  

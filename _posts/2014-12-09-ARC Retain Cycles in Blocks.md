@@ -3,12 +3,13 @@ layout: post
 title:  ARC Retain Cycles in Blocks  
 date:   2014-12-09-11:00  
 categories: tech  
----  
-##block对象
+---
+
+## block对象
 所谓[block对象](https://developer.apple.com/library/mac/documentation/General/Conceptual/DevPedia-CocoaCore/Block.html)
 
 
-##Use __block Variables to Share Storage
+## Use __block Variables to Share Storage
 如果你想能够改变一个block内部捕捉到的变量的值，你可以使用_block修饰符来改变原始变量的声明。这意味着这个变量生存期延长到了blocks内部。
 
 

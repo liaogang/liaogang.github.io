@@ -5,7 +5,7 @@ date:   2015-03-18
 categories: learning
 ---
 
-##环境配置
+## 环境配置
 
 在mac里brew里安装clisp.  
 在安装目录下面有个bin/clisp.  
@@ -17,23 +17,23 @@ categories: learning
 
 简明lisp参考手册: [Simplified Common Lisp reference](http://jtra.cz/stuff/lisp/sclr/allprint.html)  
 
-##怎样注释
+## 怎样注释
 
 在scheme里注释一行可以使用分号: `;`  
 
-##常用函数  
+## 常用函数  
 
-###null  
+### null  
 
-###not  
+### not  
 
-###car  
+### car  
 
-###cons  
+### cons  
 
-###cdr  
+### cdr  
 
-###format:  
+### format:  
 
 	语法:
 	format 目录 控制字符串 参数 (0个或几个) ==> string or nil
@@ -41,7 +41,7 @@ categories: learning
 	destination: t,nil,stream or string with fill-pointer
 	
 	
-###do 宏  
+### do 宏  
 
 (variable initial update)
 

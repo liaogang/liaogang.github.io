@@ -11,7 +11,7 @@ from [cppreference.com](http://en.cppreference.com/w/)
 
 执行在一个区域上的遍历。  
 
-##Range-based for loops 的基本语法  
+## Range-based for loops 的基本语法  
 
 	vector<int> vec;
 	vec.push_back( 10 );
@@ -30,7 +30,7 @@ from [cppreference.com](http://en.cppreference.com/w/)
 	            cout  << address_entry.first << " < " << address_entry.second << ">" << endl;
 	}
 
-##修改Vector的内容  
+## 修改Vector的内容  
 
 	vector<int> vec;
 	vec.push_back( 1 );
@@ -46,5 +46,5 @@ from [cppreference.com](http://en.cppreference.com/w/)
 	    cout << i << endl;
 	}
 		
-##What does it mean to have a range?  
+## What does it mean to have a range?  
 `Strings`,`arrays`, 和所有的`STL`容器。

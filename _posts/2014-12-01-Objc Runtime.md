@@ -4,11 +4,11 @@ title:  Objc Runtime
 date:   2014-12-01-11:45  
 categories: tech
 ---
-##Messaging  
+## Messaging  
 
 本章介绍了message expressions转换成objc_msgSend函数调用的。你怎么来参考方法的名字。然后解释了你可以如何利用objc_msgSend,如何规避动态绑定。  
 
-###The objc_msgSend Function  
+### The objc_msgSend Function  
 
 在Objective-C里，消息是在运行的时候才绑定到具体实现的。  
 
@@ -42,11 +42,11 @@ This is the way that method implementations are chosen at runtime—or, in the j
 
 To speed the messaging process, the runtime system caches the selectors and addresses of methods as they are used. There’s a separate cache for each class, and it can contain selectors for inherited methods as well as for methods defined in the class. Before searching the dispatch tables, the messaging routine first checks the cache of the receiving object’s class (on the theory that a method that was used once may likely be used again). If the method selector is in the cache, messaging is only slightly slower than a function call. Once a program has been running long enough to “warm up” its caches, almost all the messages it sends find a cached method. Caches grow dynamically to accommodate new messages as the program runs.
 
-##Dynamic Method Resolution  
+## Dynamic Method Resolution  
 
 这一章描述了如何动态为一个方法提供一个具体实现  
  
-###Dynamic Method Resolution  
+### Dynamic Method Resolution  
 
 在一些情况下，你可能想要动态的改变一个方法的具体实现。比如，一个用`@dynamic`修饰的成员属性:  
 
@@ -66,7 +66,7 @@ You can implement the methods `resolveInstanceMethod:` and `resolveClassMethod:`
 
 
 
-##Refrence  
+## Refrence  
 
 [Objective-C Runtime Reference](https://developer.apple.com/library/mac/documentation/Cocoa/Reference/ObjCRuntimeRef/index.html)  
 [Objective-C Runtime Programming Guide](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ObjCRuntimeGuide/Articles/ocrtHowMessagingWorks.html)  

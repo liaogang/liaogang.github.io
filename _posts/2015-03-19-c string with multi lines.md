@@ -14,7 +14,7 @@ categories: tech
 	bfda\
 	asdf";
 	
-##第二种方法  
+## 第二种方法  
 	char s[] = 
 	"asdf"
 	"bfda"

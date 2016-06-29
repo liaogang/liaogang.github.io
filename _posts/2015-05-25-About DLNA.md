@@ -5,7 +5,7 @@ date:   2015-05-25
 categories: tech
 ---
 
-##1.1 Architectures and Protocols体系结构和协议  
+## 1.1 Architectures and Protocols体系结构和协议  
 
 The Interoperability Guidelines consists of ten parts covering Architecture and Protocols, Media Formats, Link Protection, DRM Interoperability Systems, Device Profiles, HTML RUI, Authentication, Diagnostics, HTTP Adaptive Delivery, and Low Power Mode.    
 
@@ -19,8 +19,10 @@ It provides vendors with the information needed to build interoperable networked
   
   
 ## upnp av ContentDirectory v1 Service
-###2.8.9 Playlist Manipulation 播放列表控制
-####2.8.9.1  Playlist file representation in CDS 
+
+### 2.8.9_Playlist Manipulation 播放列表控制
+
+### 2.8.9.1  Playlist file representation in CDS
 
 A playlist file is represented as an object of the playlist class (object.item.playlist).   
 

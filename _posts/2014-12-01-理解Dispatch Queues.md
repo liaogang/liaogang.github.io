@@ -7,7 +7,7 @@ categories: tech
 
 Grand Central Dispatch (GCD) dispatch queues 是一个处理任务的强大的工具。 Dispatch queues 让你处理任务的一块代码异步或同步地。与对应的线程代码相比，更加易用;执行任务时，效率更高。  
 
-##关于Dispatch Queues
+## 关于Dispatch Queues
 你可以定制相应的代码，使用function或block object，来把一个任务加入dispatch queue.　　
 
 A dispatch queue is an object-like structure that manages the tasks you submit to it. All dispatch queues are first-in, first-out data structures.所以任务总是按你添加的顺序先后执行。GCD提供一些dispatch queues,但你也可以自己创建，来完成特殊的任务。  
@@ -33,29 +33,29 @@ Although you might think rewriting your code for dispatch queues would be diffic
 
 For more information about interfaces you use to manipulate dispatch queues, see Grand Central Dispatch (GCD) Reference.
 
-##Queue-Related Technologies
+## Queue-Related Technologies
 
-##Implementing Tasks Using Blocks
+## Implementing Tasks Using Blocks
 
-##Creating and Managing Dispatch Queues
+## Creating and Managing Dispatch Queues
 
-###Getting the Global Concurrent Dispatch Queues
+### Getting the Global Concurrent Dispatch Queues
 
 Although dispatch queues are reference-counted objects, you do not need to retain and release the global concurrent queues. Because they are global to your application, retain and release calls for these queues are ignored. Therefore, you do not need to store references to these queues. You can just call the dispatch_get_global_queue function whenever you need a reference to one of them.
 
-##Creating Serial Dispatch Queues
+## Creating Serial Dispatch Queues  
 
-###Getting Common Queues at Runtime
+### Getting Common Queues at Runtime  
 
-##Memory Management for Dispatch Queues
+## Memory Management for Dispatch Queues  
 
 Note: You do not need to retain or release any of the global dispatch queues, including the concurrent dispatch queues or the main dispatch queue. Any attempts to retain or release the queues are ignored.
 
-##Storing Custom Context Information with a Queue
+## Storing Custom Context Information with a Queue  
 
-##Providing a Clean Up Function For a Queue
+## Providing a Clean Up Function For a Queue  
 
-##Refrence  
+## Refrence  
 
 
 [IOS Developer LIbrary --> Concurrency Programming Guide
