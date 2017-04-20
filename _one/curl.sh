@@ -10,7 +10,6 @@ fi
 echo "---" > readme.md
 echo "layout: post_center " >> readme.md
 echo "title:  ONE问题 " >> readme.md
-echo "tag: private  " >> readme.md
 echo "permalink: /one/" >> readme.md
 echo "---" >> readme.md
 echo " " >> readme.md

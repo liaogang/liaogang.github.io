@@ -1,7 +1,6 @@
 ---
 layout: post_center 
 title:  ONE问题 
-tag: private  
 permalink: /one/
 ---
  
