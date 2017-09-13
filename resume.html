@@ -9,14 +9,14 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <style>
             html, body, main, section, header, ul, p, h1, h2, h3 {
-              font-family: Calibri, 'Open Sans', sans-serif;
+              font-family: 'Calibri', 'Open Sans', 'sans-serif';
               font-size: 14px;
               margin: 0; padding: 0;
               display: block;
             }
             
             a {
-              color: #0064BD;
+              color: #C00000;
               text-decoration: none;
             }
             
@@ -41,8 +41,15 @@
               font-weight: 400;
             }
             
+            h3, .tenure {
+              font-size: 1.5em;
+              font-weight: 300;
+            }
+            
             h3 {
-              font-size: 1em;
+              margin-top: 0;
+              width: 66%;
+              float: left;
             }
             
             table {
@@ -62,6 +69,10 @@
               text-align: justify; /* HTML justification sucks, but in this case... */
             }
             
+            hr {
+              display: none;
+            }
+            
             main {
               padding: 15px;
               max-width: 800px;
@@ -72,12 +83,25 @@
               margin-top: 1em;
             }
             
-            li {
-              margin-left: 2em;
+            section > div {
+              margin-top: 1em;
+              overflow: hidden; /* Clear floated children */
             }
             
-            h3 {
-              margin-top: 1em;
+            section > div p {
+              clear: both;
+            }
+            
+            section > header {
+              position: relative;
+            }
+            
+            ul {
+              clear: both;
+            }
+            
+            li {
+              margin-left: 2em;
             }
             
             p, li {
@@ -86,6 +110,16 @@
             
             .tenure {
               float: right;
+              color: #6F6F6F;
+              background-color: #F5F5F5;
+              border-radius: 6px;
+              padding: 4px 6px;
+              font-size: 85%;
+            }
+            
+            span.keywords {
+              font-size: 10px;
+              color: #B16666;
             }
             
             thead {
@@ -98,16 +132,15 @@
               margin-bottom: 1em;
             }
             
-            
-            main > header > h1 {
+            h1 {
               float: left;
             }
             
-            main > header > h1, .label {
+            h1, h2, .label {
               font-size: 2.5em;
               text-transform: uppercase;
               font-weight: 300;
-              font-family: 'Open Sans', 'Segoe UI', sans-serif;
+              font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Lato', 'sans-serif'
             }
             
             #contact {
@@ -115,12 +148,15 @@
              float: right;
             }
             
-            h2 > span.fa {
+            header > span.fa {
               text-align: center;
               margin-right: 3px;
               position: absolute;
               width: 40px;
-              transform: translateX(-110%);
+              top: 10px;
+              font-size: 30px;
+              /*transform: translateX(-110%); PDF no likey */
+              margin-left: -50px;
               color: #DADADA;
             }
             
@@ -131,7 +167,7 @@
             
             #summary {
               color: #717171;
-              font-size: 1.25em;  
+              font-size: 1.25em;
             }
         </style>
     </head>
@@ -140,112 +176,126 @@
         <main>
             <header>
                  <h1> <span style="color: #C00000;">廖罡</span></h1>
- <span class="label">高级程序员</span>
+ <span class="label">高级iOS研发工程师</span>
 
-                <p id="contact"> <span class="email"><a href="mailto:ynwlgh@icloud.com">ynwlgh@icloud.com</a></span>
-
-                    <span
-                    class="phone">15388916109</span> <span class="website"><a href="http://liaogang.github.io"><a href="http://liaogang.github.io">http://liaogang.github.io</a></a></span>
+                <p id="contact"> <span class="phone">15388916109</span>
+ <span class="website"><a href="https://github.com/liaogang"><a href="https://github.com/liaogang">https://github.com/liaogang</a></a></span>
 
                 </p>
             </header>
-            <section id="summary">来自岳阳, C++开发工程师: 二年经验,IOS开发工程师: 四年经验, 擅长于构建具有优雅架构完美用户体验的应用</section>
-            <section
-            id="skills">
-                <header>
-                     <h2><span class="fa fa-code"></span> Skills</h2>
+            <section id="summary">曾是netgear公司<code>网件精灵</code>路由管理软件开发团队成员;拥有多个iOS成熟项目的开发及上线经验;拥用Windows及Mac
+                OS平台开发能力</section>
+            <hr>
+            <section id="employment">
+                <header> <span class="fa fa-lg fa-building"></span> 
+                     <h2>employment</h2>
 
                 </header>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Skills</th>
-                            <th>Keywords</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td style="width: 33%;">IOS开发</td>
-                            <td class="keywords">Objective-c Cocoa Swift AsyncDisplayKit</td>
-                        </tr>
-                        <tr>
-                            <td style="width: 33%;">Window桌面开发</td>
-                            <td class="keywords">WTL MFC Socket Network</td>
-                        </tr>
-                        <tr>
-                            <td style="width: 33%;">协议和工具</td>
-                            <td class="keywords">DLNA Google Cast Samba ID3 tag解析</td>
-                        </tr>
-                        <tr>
-                            <td style="width: 33%;">版本控制</td>
-                            <td class="keywords">Git Svn Vss</td>
-                        </tr>
-                    </tbody>
-                </table>
-                </section>
-                <section id="employment">
-                    <header>
-                         <h2><span class="fa fa-building" style="vertical-align: top;"></span> Employment</h2>
+                <div>
+                     <h3><em>负责开发者</em>,
+              <a href="www.shishuo.com">长沙市师说网络科技有限公司</a>
+              </h3>
+ <span class="tenure">2017-03 — 2017-09</span>
 
-                    </header>
-                     <h3><em>移动端研发成员</em>,
-            <a href="http://siteview.com">北京游龙网网络科技有限公司</a>
-            <span class="tenure">2014-03 &mdash; 2016-01<span></h3>
-
-                    <p style="clear: both;">
-                        <p>Genie是Netgear路由器IOS端管理软件，我在项目里负责新加入的模块，ReadySHARE 和 My Media 里的Chrome
-                            Cast部分及Cloud API通信接口部分。比如ReadySHARE，是远程管理路由器USB接口的，保证界面操作的流畅性和后台数据的读取稳定性是最难的部分。</p>
+                    <p>
+                        <p>师说平台(互联网+教育) IOS 端app全部功能实现 主要包括: 商品订单的开单,支付,扫码,充值课表, 图文(这个模块跟美篇类似),网盘,直播(包括字幕)等模块</p>
                     </p>
                     <ul>
-                        <li>负责ReasySHARE模块开发:通过Samba协议，与Router USB打交道</li>
-                        <li>Google Cast 及 DLNA模块</li>
+                        <li>这个项目使我获得了更成熟的处理后台Json数据的方式, 使用storyboard实现极复杂页面及显示多态页面的简单模型,iOS与h5 javascript打交道及富文本的编辑等技巧</li>
                     </ul>
-                     <h3><em>移动端研发成员</em>,
-            <a href="http://siteview.com">快乐生活电子商务有限公司</a>
-            <span class="tenure">2014-03 &mdash; 2016-01<span></h3>
+                </div>
+                <div>
+                     <h3><em>负责开发者</em>,
+              <a href="https://itunes.apple.com/cn/app/%E5%97%A8%E7%A4%BE%E4%BA%A4app/id1273583749?mt=8">北京明月网络科技公司</a>
+              </h3>
+ <span class="tenure">2017-03 — 2017-09</span>
 
-                    <p style="clear: both;">
+                    <p>
+                        <p>长沙版的仿微信同城社交. 发现长沙的新鲜人新鲜事. 功能包括: 实时聊天,在线好友,朋友圈等.</p>
+                    </p>
+                    <ul>
+                        <li>环信限时通讯云,bmob后端云,iOS离线推送</li>
+                        <li>facebook Texture实现朋友圈的图文混排显示</li>
+                    </ul>
+                </div>
+                <div>
+                     <h3><em>移动端研发成员</em>,
+              <a href="http://siteview.com">北京游龙网网络科技有限公司长沙研发部</a>
+              </h3>
+ <span class="tenure">2014-03 — 2016-01</span>
+
+                    <p>
+                        <p>美国网件路由iOS app<em>网件精灵</em>部分模块开发负责人。</p>
+                    </p>
+                    <ul>
+                        <li>重写<code>我的媒体</code>模块, 从零开始学习DLNA协议,研究Platinum C++对DLNA及Upnp的协议实现,最终实现了与其他几大常用平台里各DLNA程序的兼容</li>
+                        <li><code>ReadySHARE USB</code>模块, 通过反向分析开源应用VLC的网络发包,解决USB视频边播边下载的功能中速度变慢及无法调整播放进度的难题</li>
+                    </ul>
+                </div>
+                <div>
+                     <h3><em>负责开发者</em>,
+              <a href="http://siteview.com">长沙快乐生活电子商务有限公司</a>
+              </h3>
+ <span class="tenure">2011-06 — 2015-06</span>
+
+                    <p>
                         <p>快乐生活是一个在线的酒店管理平台</p>
                     </p>
                     <ul>
                         <li>本人负责IOS客户端开发,主要功能包括：酒店搜索(查看酒店地图坐标,百度地图), 酒店订单(订单管理及订单支付宝在线支付功能)</li>
                         <li>Windows上传客户端，手机数据上传到服务器</li>
                     </ul>
-                </section>
-                <section id="education">
-                    <header>
-                         <h2><span class="fa fa-mortar-board"></span> Education</h2>
+                </div>
+                <div>
+                     <h3><em>windows客户端研发工程师</em>,
+              <a href="http://www.netway.net.cn">上海华堂网络有限公司</a>
+              </h3>
+ <span class="tenure">2010-07 — 2011-07</span>
 
-                    </header>
-                     <h3>衡阳南华大学,大学本科,软件工程专业 <span class="tenure">2006 &mdash; 2010<span></h3>
+                    <p>
+                        <p>华堂路由器windows客户端维护及新功能添加</p>
+                    </p>
+                    <ul>
+                        <li>我的第一份工作,当时我只会用基础的MFC,是并不能完全胜任这个职位的,很感谢当时华堂给了我这个机会,我在那里很努力的学习并提高自己的基础技能,我从零学习TCP/IP,从汇编到C++标准模板库,到最后能熟练使用WTL</li>
+                    </ul>
+                </div>
+            </section>
+            <hr>
+            <section id="projects">
+                <header> <span class="fa fa-lg fa-star"></span> 
+                     <h2>projects</h2>
 
-                </section>
-                <section id="publications">
-                    <header>
-                         <h2><span class="fa fa-book"></span> Writing</h2>
+                </header>
+                <div>
+                     <h3><em>开发者</em>,
+          <a href="https://github.com/uPlayer/uPlayer">Smine</a>
+          </h3>
+ <span class="tenure">2015-02 — Present</span>
 
-                    </header>
-                     <h3><em><a href="https://github.com/liaogang/iDLNA">iDLNA</a></em>,
-             <span class="tenure">2016</span></h3>
+                    <p>Mac OS X下的音乐播放软件,可收集播放数据至Last.fm,显示频谱等</p> <span class="keywords">OS X Last.fm </span> 
+                </div>
+                <div>
+                     <h3><em>开发者</em>,
+          <a href="https://github.com/liaogang/player">uPlayer</a>
+          </h3>
+ <span class="tenure">2012-02 — Present</span>
 
-                    <p>DLNA协议在IOS端的标准实现,包括Server，Render，Controller</p>
-                     <h3><em><a href="https://github.com/liaogang/ASPhotoBrowser">ASPhotoBrowser </a></em>,
-             <span class="tenure">2016</span></h3>
+                    <p>Windows平台下的一款类似foobar2k的音乐播放器软件,WTL写就,实时歌词显示等</p> <span class="keywords">Windwos WTL </span> 
+                </div>
+            </section>
+            <hr>
+            <section id="education">
+                <header> <span class="fa fa-lg fa-mortar-board"></span> 
+                     <h2>education</h2>
 
-                    <p>网络图片浏览器，用于展示快速滑动中ASKit 和 UIKit 的图片渲染性能差异</p>
-                     <h3><em><a href="http://uplayer.github.io">Smine</a></em>,
-             <span class="tenure">2015</span></h3>
+                </header>
+                <div>
+                     <h3><em>软件工程</em>, 衡阳南华大学</h3>
+ <span class="tenure">2006-09 — 2010-10</span>
+ <span class="keywords">C基础 数据结构 编译原理 Java VB </span>
 
-                    <p>Mac OS X下一款极简的音乐播放器</p>
-                     <h3><em><a href="https://github.com/liaogang/lyricsFetcher">LyricsFetcher</a></em>,
-             <span class="tenure">2014</span></h3>
-
-                    <p>一个unix工具, 用于从网络上批量下载歌曲的歌词</p>
-                     <h3><em><a href="https://github.com/liaogang/player">uPlayer</a></em>,
-             <span class="tenure">2012</span></h3>
-
-                    <p>Windows平台下的一款类似foobar2k的音乐播放器软件,WTL写就.</p>
-                </section>
+                </div>
+            </section>
         </main>
     </body>
 
