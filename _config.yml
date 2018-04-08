@@ -15,7 +15,7 @@ kramdown:
 permalink: pretty
 
 #　禁用自定义插件
-safe: true
+# safe: true
 
 # default values
 defaults:
