@@ -8,11 +8,18 @@ highlighter: rouge
 
 # Build settings
 markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+theme: minima
+plugins:
+  - jekyll-feed
 
-permalink: pretty
+
+# Build settings
+# markdown: kramdown
+# kramdown:
+#   input: GFM
+#   syntax_highlighter: rouge
+
+# permalink: pretty
 
 #　禁用自定义插件
 # safe: true
@@ -24,5 +31,5 @@ defaults:
       path: "" # an empty string here means all files in the project
     values: 
       layout: "post_center"
-      post_width: "702"
+      post_width: "900"
       image_server_base: "https://coding.net/u/liaogang123/p/ImageServer/git/raw/master/"

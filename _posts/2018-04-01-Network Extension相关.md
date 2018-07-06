@@ -137,3 +137,66 @@ xcode9 的　attach process 可以调试appex
 
 /private/etc/apt/sources.list.d/wl.list
 
+
+
+iOS的OpenSSH 也是建立在tun网络接口上
+
+https://github.com/openssh/openssh-portable/blob/master/README.tun
+
+如果ios8里也能够添加vpn,那他也是创建了一块tun接口。
+只是没有开放成IOS9里面的vpn组件而已。
+
+/usr/libexec/nehelper checkInterfaceSettings checking interface settings for (
+    utun1
+)
+
+
+configd : Data too large for ProxyAgent-@utun1 (1145 bytes)!
+
+NEHelperConfigurationManager initWithConnection
+
+value1:OS_xpc_connection--><OS_xpc_connection: <connection: 0x10042b6b0> { name = com.apple.nehelper (peer), listener = false, pid = 28172, euid = 0, egid = 0, asid = 0 }>
+
+28172 就是simpleTunnel
+
+
+-(BOOL) NEHelperConfigurationManager loadedConfigurationExists:newConfiguration:(have 2 value)
+return:0
+value1:(null)-->(null)
+value2:NEConfiguration-->{
+    name = 阿布云
+    identifier = C8572552-37E9-4AA2-89FC-5901E26CD51E
+    applicationName = 手机隧道
+    application = com.abuyun.http.tunnel
+    grade = 1
+    VPN = {
+        enabled = YES
+        onDemandEnabled = NO
+        protocol = {
+            type = plugin
+            identifier = C2144B23-D00C-4138-B209-01DC87D1FE8A
+            serverAddress = socks服务器
+            identityDataImported = NO
+            disconnectOnSleep = NO
+            disconnectOnIdle = NO
+            disconnectOnIdleTimeout = 0
+            disconnectOnWake = NO
+            disconnectOnWakeTimeout = 0
+            pluginType = com.abuyun.http.tunnel
+            authenticationMethod = 0
+            reassertTimeout = 0
+        }
+    }
+}
+object:<NEHelperConfigurationManager: 0x10041ab30>
+
+
+
+
+CF_EXPORT CFTypeRef _CFRuntimeCreateInstance(CFAllocatorRef allocator, CFTypeID typeID, CFIndex extraBytes, unsigned char *category);
+
+    
+
+
+
+    - (void)[ readPacketsWithCompletionHandler:(void (^)(NSArray<NSData *> *packets, NSArray<NSNumber *> *protocols))completionHandler;

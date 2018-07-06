@@ -1,4 +1,5 @@
 <head>
     <meta charset="utf-8">
-     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title> {% if include.param == null %} <style></style> {% endif %} {% if include.param == 'textc' %} <style>body{ text-align:center}.div{ margin:0 auto; }</style> {% endif %} {% if include.param == 'center' %} <style>div{width: {{page.post_width}}px;margin: 0px auto;position: relative;}</style> {% endif %}
+    <link href="/css/main.css" rel="stylesheet">
+     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title> {% if include.param == null %} <style></style> {% endif %} {% if include.param == 'textc' %} <style>body{ text-align:center}.div{ margin:0 auto; }</style> {% endif %} {% if include.param == 'center' %} <style>div{ margin-left: 20px  }</style> {% endif %}
 </head>
