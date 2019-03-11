@@ -1,8 +1,8 @@
----
+---  
 layout: post  
 title: 清除iOS app的系统隐私记录  
 date: 2018-09-26  
-categories: tech   
+categories: tech
 ---
 
 
