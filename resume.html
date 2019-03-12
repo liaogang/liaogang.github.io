@@ -9,10 +9,24 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <style>
             html, body, main, section, header, ul, p, h1, h2, h3 {
-              font-family: 'Calibri', 'Open Sans', 'sans-serif';
+              font-family: 'Open Sans', 'sans-serif';
               font-size: 14px;
+              line-height: 1.4;
               margin: 0; padding: 0;
               display: block;
+            }
+            
+            ::selection {
+              color: #fff;
+              background: #e48a8a; /* WebKit/Blink Browsers */
+            }
+            ::-moz-selection {
+              color: #fff;
+              background: #e48a8a; /* Gecko Browsers */
+            }
+            
+            p::selection {
+              color: #fff;
             }
             
             a {
@@ -43,26 +57,25 @@
             
             h3, .tenure {
               font-size: 1.5em;
-              font-weight: 300;
+              font-weight: 400;
             }
             
             h3 {
               margin-top: 0;
-              width: 66%;
+              margin-bottom: 5px;
+              /*width: 85%;*/
               float: left;
             }
             
             table {
               width: 100%;
               text-transform: uppercase;
-              font-size: 1.3em;
             }
             
             td:first-child {
-              text-align: right;
-              color: #A9A9A9;
-              letter-spacing: 5px;
-              font-weight: bold;
+              letter-spacing: 2px;
+              color: #bd5b5b;
+              font-size: 20px;
             }
             
             td:last-child {
@@ -80,11 +93,11 @@
             }
             
             section {
-              margin-top: 1em;
+              margin-top: 2em;
             }
             
             section > div {
-              margin-top: 1em;
+              margin-top: 2em;
               overflow: hidden; /* Clear floated children */
             }
             
@@ -94,6 +107,10 @@
             
             section > header {
               position: relative;
+            }
+            
+            p + ul {
+              margin: 1em;
             }
             
             ul {
@@ -115,10 +132,26 @@
               border-radius: 6px;
               padding: 4px 6px;
               font-size: 85%;
+              font-weight: 600;
+              margin-top: 3px;
+            }
+            
+            .location {
+              border: #e2aaaa dashed 1px;
+              background-color: #ffffff;
+              padding: 3px 6px;
+              border-radius: 6px;
+              float: right;
+              margin-right: 5px;
+              float: right;
+              font-size: 85%;
+              color: #717171;
+              font-weight: 600;
+              margin-top: 3px;
             }
             
             span.keywords {
-              font-size: 10px;
+              font-size: 12px;
               color: #B16666;
             }
             
@@ -146,6 +179,11 @@
             #contact {
              clear: both;
              float: right;
+             margin-top: 2px;
+            }
+            
+            #contact span + span {
+              margin-left: 10px;
             }
             
             header > span.fa {
@@ -153,7 +191,7 @@
               margin-right: 3px;
               position: absolute;
               width: 40px;
-              top: 10px;
+              top: 14px;
               font-size: 30px;
               /*transform: translateX(-110%); PDF no likey */
               margin-left: -50px;
@@ -168,6 +206,21 @@
             #summary {
               color: #717171;
               font-size: 1.25em;
+              margin-top: 6em;
+            }
+            
+            #skills td {
+              padding-top: 7px;
+              padding-bottom: 7px;
+            }
+            
+            #references > p, #references > p > a {
+              color: #961e1e;
+              text-align: center;
+              margin: 30px;
+              font-weight: bold;
+              letter-spacing: 2px;
+              text-transform: uppercase;
             }
         </style>
     </head>
@@ -175,17 +228,13 @@
     <body>
         <main>
             <header>
-                 <h1> <span style="color: #C00000;">廖罡</span></h1>
- <span class="label">应聘iOS软件开发,应用安全和逆向的工作</span>
-
+                 <h1> <span style="color: #C00000;">廖罡</span></h1> <span class="label">应聘iOS软件开发,应用安全和逆向的工作</span>
                 <p id="contact"> <span class="email"><a href="mailto:ynwlgh@icloud.com">ynwlgh@icloud.com</a></span>
-
                     <span
                     class="phone">153-8891-6109</span> <span class="website"><a href="[github.com/liaogang](https://github.com/liaogang)"><a href="https://github.com/liaogang">github.com/liaogang</a></a></span>
-
                 </p>
             </header>
-            <section id="summary">一年半iOS逆向经验,三年iOS开发,一年Windows软件开发</section>
+            <section id="summary">男,89年生,一年半iOS逆向经验,三年iOS开发,一年Windows软件开发</section>
             <hr>
             <section id="employment">
                 <header> <span class="fa fa-lg fa-building"></span> 
@@ -194,10 +243,10 @@
                 </header>
                 <div>
                      <h3><em>iOS端开发</em>,
-              <a href="http://www.abuyun.com">长沙阿云网络科技有限公司</a>
-              </h3>
- <span class="tenure">2017-10 — 2019-03</span>
 
+              <a href="http://www.abuyun.com">长沙阿云网络科技有限公司</a>
+
+              </h3> <span class="tenure">2017-10 — 2019-03</span>
                     <p>
                         <p>阿云手机socks代理隧道客户端开发,抖音上号发视频,抖音播主数据抓取,微信公众号文章抓取,基于多闪协议的机器人项目</p>
                     </p>
@@ -206,14 +255,14 @@
                         </li>
                         <li>抖音iOS端http参数签名算法as,mas的破解</li>
                         <li>多闪网络协议及其即时聊天SDK的逆向</li>
-                    </ul> <span class="keywords"><a href="https://github.com/liaogang/neon">arm NEON指令</a> 逆向OLLVM混淆过的函数 <a href="https://github.com/liaogang/check_fish_inline_hook">fish-hook,inline-hook的检测,越狱模块检测</a> <a href="https://liaogang.github.io/2019/02/28/%E6%8A%96%E9%9F%B3%E5%8F%82%E6%95%B0%E5%8A%A0%E7%AD%BE%E7%AE%97%E6%B3%95.html">lldb调试及其python脚本的应用</a> <a href="https://liaogang.github.io/tech/2019/02/28/ida%E6%81%A2%E5%A4%8D%E5%A0%86%E6%A0%88%E5%B9%B3%E8%A1%A1.html">IDA的使用技巧</a> <a href="https://liaogang.github.io/tech/2018/09/26/How-to-reset-iOS-App&#39;s-System-Privacy.html">清除iOS app的系统隐私记录</a> <a href="https://github.com/liaogang/Socks5OverWebsocket">Websocket承载socks5协议</a> <a href="https://liaogang.github.io/tech/2018/05/15/iOS%E7%B3%BB%E7%BB%9F%E7%A7%81%E6%9C%89%E5%8A%9F%E8%83%BD.html">开关系统当前VPN,自动连接指定WiFi,自动重装app</a> <a href="https://liaogang.github.io/tech/2018/04/14/ios%E7%9A%84app%E7%BB%84%E7%BB%87%E6%88%90deb%E5%8C%85%E5%AE%89%E8%A3%85%E5%88%B0%E7%94%A8%E6%88%B7%E7%A9%BA%E9%97%B4.html">iOS deb包的制作,cydia私有源的创建</a> </span> 
+                    </ul> <span class="keywords"><a href="https://github.com/liaogang/neon">arm NEON指令</a> 逆向OLLVM混淆过的函数 <a href="https://github.com/liaogang/check_fish_inline_hook">fish-hook,inline-hook的检测,越狱模块检测</a> <a href="https://liaogang.github.io/2019/02/28/%E6%8A%96%E9%9F%B3%E5%8F%82%E6%95%B0%E5%8A%A0%E7%AD%BE%E7%AE%97%E6%B3%95.html">lldb调试及其python脚本的应用</a> <a href="https://liaogang.github.io/tech/2019/02/28/ida%E6%81%A2%E5%A4%8D%E5%A0%86%E6%A0%88%E5%B9%B3%E8%A1%A1.html">IDA的使用技巧</a> <a href="https://liaogang.github.io/tech/2018/09/26/How-to-reset-iOS-App&#39;s-System-Privacy.html">清除iOS app的系统隐私记录</a> <a href="https://github.com/liaogang/Socks5OverWebsocket">Websocket承载socks5协议</a> <a href="https://liaogang.github.io/tech/2018/05/15/iOS%E7%B3%BB%E7%BB%9F%E7%A7%81%E6%9C%89%E5%8A%9F%E8%83%BD.html">开关系统当前VPN,自动连接指定WiFi,自动重装app</a> <a href="https://liaogang.github.io/tech/2018/04/14/ios%E7%9A%84app%E7%BB%84%E7%BB%87%E6%88%90deb%E5%8C%85%E5%AE%89%E8%A3%85%E5%88%B0%E7%94%A8%E6%88%B7%E7%A9%BA%E9%97%B4.html">iOS deb包的制作,cydia私有源的创建</a> </span>
                 </div>
                 <div>
                      <h3><em>iOS端开发</em>,
-              <a href="http://hishuo.com">长沙师说网络科技有限公司</a>
-              </h3>
- <span class="tenure">2017-03 — 2017-09</span>
 
+              <a href="http://hishuo.com">长沙师说网络科技有限公司</a>
+
+              </h3> <span class="tenure">2017-03 — 2017-09</span>
                     <p>
                         <p>师说平台(互联网+教育) IOS 端app主要功能实现包括: 商品订单的开单,支付,扫码,充值课表, 图文(这个模块跟美篇类似),网盘,直播(包括字幕)等模块</p>
                     </p>
@@ -224,10 +273,10 @@
                 </div>
                 <div>
                      <h3><em>移动端研发成员</em>,
-              <a href="http://siteview.com">北京游龙网络科技长沙研发部</a>
-              </h3>
- <span class="tenure">2014-03 — 2017-03</span>
 
+              <a href="http://siteview.com">北京游龙网络科技长沙研发部</a>
+
+              </h3> <span class="tenure">2014-03 — 2017-03</span>
                     <p>
                         <p>Netgear Genie是美国网件路由管理端,主要负责开发的模块有:我的媒体,ReadySHARE USB</p>
                     </p>
@@ -238,10 +287,10 @@
                 </div>
                 <div>
                      <h3><em>windows客户端研发工程师</em>,
-              <a href="http://www.netway.net.cn">上海华堂网络有限公司</a>
-              </h3>
- <span class="tenure">2010-07 — 2011-07</span>
 
+              <a href="http://www.netway.net.cn">上海华堂网络有限公司</a>
+
+              </h3> <span class="tenure">2010-07 — 2011-07</span>
                     <p>
                         <p>华堂路由器windows客户端的维护及新功能添加</p>
                     </p>
@@ -280,10 +329,7 @@
 
                 </header>
                 <div>
-                     <h3><em>软件工程系</em>, 南华大学,湖南衡阳</h3>
- <span class="tenure">2006-09 — 2010-10</span>
- <span class="keywords">C基础 数据结构 编译原理 </span>
-
+                     <h3><em>软件工程系</em>, 南华大学,湖南衡阳</h3> <span class="tenure">2006-09 — 2010-10</span> <span class="keywords">C基础 数据结构 编译原理 </span>
                 </div>
             </section>
         </main>
