@@ -3,3 +3,4 @@ _site
 
 _one
 .sass-cache
+.jekyll-cache

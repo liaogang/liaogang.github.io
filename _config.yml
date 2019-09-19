@@ -9,6 +9,9 @@ highlighter: rouge
 # Build settings
 markdown: kramdown
 theme: minima
+# remote_theme: jekyll/minima
+
+
 plugins:
   - jekyll-feed
 
