@@ -35,4 +35,5 @@ defaults:
     values: 
       layout: "post_center"
       post_width: "900"
-      image_server_base: "https://coding.net/u/liaogang123/p/ImageServer/git/raw/master/"
+      # image_server_base: "https://coding.net/u/liaogang123/p/ImageServer/git/raw/master/"
+      image_server_base: "http://127.0.0.1:4000/resource/img/"
