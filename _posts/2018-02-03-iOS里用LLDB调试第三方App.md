@@ -12,6 +12,7 @@ usbmuxd虽然目前最新的版本是1.1.0，但是1.1.0版本和1.0.9版本仅�
 首先我们得找到iOS设备中debugserver，并将其拷贝到Mac上进行处理，下方就是位于/Developer/usr/bin目录下的debugserver。此debugserver只支持调试我们自己的App, 如果需要调试其他人的App的话，需要对此debugserver进行处理，处理过程见下文。
 
 
+```
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
@@ -25,6 +26,7 @@ usbmuxd虽然目前最新的版本是1.1.0，但是1.1.0版本和1.0.9版本仅�
         <true/>
 </dict>
 </plist>
+```
 
 在给debugserver符权限时，我们需要使用到ldid命令，如果你的Mac上没有安装ldid命令，那么请用brew进行install。执行下方的命令行就可以给我们的debugserver赋上task_for_pid权限。需要注意的是-S与ent.xml文件名中是没有空格的
 
